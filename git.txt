@@ -1,0 +1,7 @@
+git branch nombre-de-la-rama // Crear una nueva rama
+git checkout nombre-de-la-rama // Cambiar a la rama
+git checkout -b nombre-de-la-rama // Crear y cambiar a la rama
+git push --set-upstream origin nombre-de-la-rama // Subir cambios a la rama
+git push -u origin nombre-de-la-rama // Subir cambios a la rama
+git pull --rebase origin main // Actualizar la rama con los cambios de la rama main
+git push --force-with-lease // Subir cambios a la rama

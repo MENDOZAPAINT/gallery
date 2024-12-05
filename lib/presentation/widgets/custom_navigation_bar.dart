@@ -44,10 +44,10 @@ class CustomNavigationBar extends StatelessWidget {
       tooltip: 'Tus favoritos',
     ),
     NavigationDestinationData(
-      icon: Icons.person_outline_rounded,
-      selectedIcon: Icons.person_rounded,
-      label: 'Perfil',
-      tooltip: 'Tu perfil',
+      icon: Icons.account_circle_outlined,
+      selectedIcon: Icons.account_circle_rounded,
+      label: 'Usuario',
+      tooltip: 'Tu cuenta',
     ),
   ];
 
